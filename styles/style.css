@@ -1,0 +1,107 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+}
+.banner-container {
+  background-image: url("../images//banner//banner2.png");
+  height: 700px;
+  width: 1600px;
+}
+
+.banner-fonts {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+.banner-heading {
+  font-size: 40px;
+  font-weight: 700;
+}
+.flexible-container {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 100px;
+}
+.flexible-container h1 {
+  justify-content: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+.h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.plan-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.plans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 160px;
+}
+
+.img-graidant {
+  height: 300px;
+}
+.contact {
+  color: white;
+  padding: 80px 0 80px 50px;
+  background-image: linear-gradient(
+      to left,
+      rgba(245, 246, 252, 0.52),
+      rgba(230, 82, 37, 0.73)
+    ),
+    url("../images/watch.png");
+  background-size: cover;
+}
+
+.flexible_container {
+  display: flex;
+  margin-bottom: 100px;
+}
+.text {
+  text-align: center;
+  width: 100%;
+}
+.subscriber {
+  width: 90%;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding: 1%;
+  border-radius: 15px;
+  box-shadow: 10px 10px 30px gray;
+}
+.footer {
+  height: 300px;
+  padding-top: 100px;
+  background-color: black;
+  color: rgb(209, 202, 202);
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.left-side {
+  width: 50%;
+}
+
+.btn {
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: orange;
+  padding: 10px 15px;
+  font-weight: 700;
+}
